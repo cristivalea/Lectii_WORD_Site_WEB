@@ -1,0 +1,39 @@
+
+body {
+    background-color: #f5f5dc; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    background-color: #008000; 
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px; 
+    width: fit-content;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+main {
+    flex: 1;
+    overflow: auto;
+}
+footer {
+    background-color: #008000; 
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
