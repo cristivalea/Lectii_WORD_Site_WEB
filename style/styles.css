@@ -38,10 +38,10 @@ footer {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
-p {
+.p {
     color: black; 
     margin-left: 120px;
-    font-size: 24px; 
+    font-size: 16px; 
     max-width: 900px; 
 }
 
@@ -59,56 +59,56 @@ ul {
 }
 
 .image-right {
-    margin-top: 20px; /* Coboară imaginea mai jos */
-    max-width: auto; /* Mărește lățimea maximă a imaginii */
-    height: 200px; /* Păstrează proporțiile imaginii */
-    border-radius: 8px; /* Colțuri rotunjite pentru imagine */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Umbră pentru imagine */
+    margin-top: 20px; 
+    max-width: auto; 
+    height: 200px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .bottom-centered-image {
-    text-align: center; /* Centrează imaginea pe orizontală */
-    margin: 20px 0 60px 0;
+    text-align: center;
+    margin: 10px 0 60px 0;
 }
 
 .bottom-centered-image img {
-    max-width: 400px; /* Dimensiunea maximă a imaginii */
-    height: auto; /* Păstrează proporțiile imaginii */
+    max-width: 400px; 
+    height: auto; 
     max-width: 700px;
-    border-radius: 8px; /* Colțuri rotunjite pentru imagine */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Umbră pentru imagine */
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     margin-top: 100px;
     margin-bottom: 60px;
 }
 
 .centered-button {
-    text-align: center; /* Centrează butonul pe orizontală */
-    margin: 20px 650px; /* Adaugă spațiu deasupra și dedesubtul butonului */
+    text-align: center; 
+    margin: 20px 650px; 
 }
 
 .button {
-    display: inline-block; /* Face link-ul să arate ca un buton */
-    background-color: #008000; /* Culoarea de fundal a butonului */
-    color: white; /* Culoarea textului */
-    padding: 10px 20px; /* Spațiere internă */
-    text-decoration: none; /* Elimină sublinierea */
-    font-size: 18px; /* Dimensiunea textului */
-    border-radius: 5px; /* Colțuri rotunjite */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Umbră pentru buton */
-    transition: background-color 0.3s ease; /* Efect de tranziție pentru hover */
+    display: inline-block; 
+    background-color: #008000; 
+    color: white;
+    padding: 10px 20px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
 }
 
 .button:hover {
-    background-color: #006400; /* Culoarea butonului la hover */
+    background-color: #006400; 
 }
 
 ol {
     margin-left: 50px;
     padding-left: 40px;
     margin-top: 50px;
-    list-style-type: decimal; /* Asigură afișarea numerelor */
-    color: black; /* Asigură culoarea textului */
-    font-size: 16px; /* Dimensiunea textului */
+    list-style-type: decimal;
+    color: black; 
+    font-size: 16px; 
 }
 
 
